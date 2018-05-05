@@ -18,3 +18,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::apiResource( 'business', 'API\BusinessController' );
+Route::apiResource( 'send', 'API\MailController' );
